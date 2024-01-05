@@ -1,0 +1,123 @@
+/* ## Colors
+
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%) */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
+}
+.wrapper-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-card {
+  max-width: 40rem;
+}
+.container-img {
+  max-width: 100%;
+}
+.img {
+  width: 100%;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+.container-textButtons {
+  background-color: white;
+  padding: 3rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+.container-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-text p {
+  font-size: 1.4rem;
+  line-height: 1.75rem;
+  padding: 2rem;
+  color: hsl(224, 23%, 55%);
+  max-width: 26rem;
+}
+.container-plan {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 2rem;
+  background-color: hsla(225, 100%, 94%, 0.4);
+}
+.container-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  padding: 1rem;
+}
+h6 {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.Price p {
+  color: hsl(224, 23%, 55%);
+  font-size: 1rem;
+  font-weight: 700;
+}
+.link-change {
+  color: hsl(245, 75%, 52%);
+  padding-right: 1rem;
+  font-size: 1.4rem;
+}
+.container-btn-payment {
+  padding: 2rem;
+  width: 100%;
+}
+.btn-payment {
+  width: 100%;
+  height: 4rem;
+  border-radius: 1.2rem;
+  border-style: none;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.btn-payment:hover {
+  background-color: hsla(245, 75%, 52%, 0.54);
+}
+.link-cancel {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  font-size: 1.4rem;
+}

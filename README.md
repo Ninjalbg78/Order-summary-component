@@ -5,5 +5,6 @@
 
 ### Links
 Solution URL: https://www.frontendmentor.io/solutions/ordersummarycomponent-mqjnrpeGlO
+
 Live site URL: https://order-summary-component78.netlify.app/
 

@@ -1,0 +1,45 @@
+/* rem and em do not depends on html font-size in media queries!
+Instead, 1em= 1rem = 16px */
+
+@media (max-width: 39em) {
+  .main-card {
+    max-width: 35rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  .container-text p {
+    font-size: 1.2rem;
+    max-width: 23rem;
+  }
+  .container-btn-payment {
+    padding: none;
+  }
+}
+@media (max-width: 36em) {
+  .main-card {
+    max-width: 30rem;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  .container-btn-payment {
+    padding: none;
+    width: 120%;
+  }
+  .container-plan {
+    width: 110%;
+  }
+}
+@media (max-width: 25em) {
+  .main-card {
+    max-width: 25rem;
+  }
+  .container-plan {
+    width: 123%;
+  }
+  .container-btn-payment {
+    padding: none;
+    width: 130%;
+  }
+}

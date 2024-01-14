@@ -3,8 +3,7 @@
 ## Preview
 ![Capture d'écran 2024-01-14 175903](https://github.com/Ninjalbg78/Order-summary-component/assets/126517267/e47e3bbe-8a89-405b-8a8e-b2708183c574)
 
-
 ### Links
-Solution URL: 
+Solution URL: https://www.frontendmentor.io/solutions/ordersummarycomponent-mqjnrpeGlO
 Live site URL: https://order-summary-component78.netlify.app/
 
